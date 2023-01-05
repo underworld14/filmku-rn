@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieList renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 16,
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://image.tmdb.org/t/p/w500undefined",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "width": 96,
+        },
+        Object {
+          "height": 128,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "marginLeft": 16,
+        },
+        Object {
+          "width": "75%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Mulish_700Bold",
+          },
+          Object {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Mulish_400Regular",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          Object {
+            "marginTop": 8,
+          },
+          Object {
+            "color": "#9ca3af",
+          },
+        ]
+      }
+    >
+      <Text />
+       
+      /
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "marginTop": 12,
+          },
+          Object {
+            "flexWrap": "wrap",
+          },
+          Object {
+            "width": "80%",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenreChip renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingLeft": 12,
+        "paddingRight": 12,
+      },
+      Object {
+        "paddingBottom": 4,
+        "paddingTop": 4,
+      },
+      Object {
+        "backgroundColor": "#60a5fa",
+      },
+      Object {
+        "borderBottomLeftRadius": 12,
+        "borderBottomRightRadius": 12,
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+      },
+      Object {
+        "marginRight": 4,
+      },
+      Object {
+        "marginBottom": 4,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Mulish_700Bold",
+        },
+        Object {
+          "textTransform": "uppercase",
+        },
+        Object {
+          "color": "#1d4ed8",
+        },
+        Object {
+          "fontSize": 9,
+        },
+      ]
+    }
+  >
+    Action
+  </Text>
+</View>
+`;
