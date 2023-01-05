@@ -57,3 +57,10 @@ To build this project run
 ```
 
 Find the generated bundle on https://expo.dev
+
+## Screenshoots
+
+![Home Screen](screenshoots/home.png)
+![Detail Screen](screenshoots/detail.png)
+![Search Screen](screenshoots/search.png)
+![Search Screen](screenshoots/bookmark.png)
