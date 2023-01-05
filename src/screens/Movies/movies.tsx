@@ -31,8 +31,6 @@ export default function Movie({ navigation }: Props) {
     }
   };
 
-  console.log(JSON.stringify(data, null, 2));
-
   return (
     <View className="relative flex-1 bg-white">
       <View className="absolute left-0 top-0 w-5/12 h-full bg-gray-100" />
