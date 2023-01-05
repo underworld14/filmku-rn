@@ -1,4 +1,4 @@
-import { wait, getGenreById, getGenresByIds } from "../helpers";
+import { wait, getGenreById, getGenresByIds, isBookmarked } from "../helpers";
 import { store } from "store";
 
 jest.mock("store");
@@ -46,5 +46,37 @@ describe("helpers", () => {
       { id: 1, name: "Action" },
       { id: 2, name: "Adventure" },
     ]);
+  });
+
+  it("able to check if movie is bookmarked", () => {
+    const id = 1;
+    const bookmarks = [
+      {
+        id: 1,
+        title: "The Shawshank Redemption",
+      },
+      {
+        id: 2,
+        title: "Avengers: Endgame",
+      },
+    ];
+    const isBookmarkedMovie = isBookmarked(id, bookmarks as any);
+    expect(isBookmarkedMovie).toBeTruthy();
+  });
+
+  it("able to check if movie is not bookmarked", () => {
+    const id = 3;
+    const bookmarks = [
+      {
+        id: 1,
+        title: "The Shawshank Redemption",
+      },
+      {
+        id: 2,
+        title: "Avengers: Endgame",
+      },
+    ];
+    const isBookmarkedMovie = isBookmarked(id, bookmarks as any);
+    expect(isBookmarkedMovie).toBeFalsy();
   });
 });

@@ -37,7 +37,7 @@ Start the project for Ios / Android
 To run tests, run the following command
 
 ```bash
-  npm run test
+  npm run testFinal
 ```
 
 ## Build and publish the app
